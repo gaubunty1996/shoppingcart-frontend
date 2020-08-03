@@ -1,0 +1,18 @@
+.container {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas:
+    "nav"
+    "main"
+    "footer";
+}
+
+main {
+  background-color: lightgreen;
+}
+
+footer {
+  background-color: lightpink;
+}
